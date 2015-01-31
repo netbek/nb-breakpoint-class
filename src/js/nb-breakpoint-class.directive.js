@@ -65,7 +65,6 @@
 
 				scope.$on('$destroy', function () {
 					$$window.off('resize', onWindowResize);
-					onWindowResize.cancel();
 				});
 			}
 		};
