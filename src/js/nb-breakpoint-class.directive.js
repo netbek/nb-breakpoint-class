@@ -33,11 +33,11 @@
 						}
 					});
 
-					if (add.length || remove.length) {
-						if (add.length) {
+					if (add.length > 0 || remove.length > 0) {
+						if (add.length > 0) {
 							element.addClass(add.join(' '));
 						}
-						if (remove.length) {
+						if (remove.length > 0) {
 							element.removeClass(remove.join(' '));
 						}
 						if (apply) {
